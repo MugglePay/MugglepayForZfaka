@@ -1,4 +1,8 @@
-
+简体中文 | [English](/README-EN.md)
+# ZFAKA发卡系统
+### 特点
+ - 发卡程序，界面 UI 非常美观，致力于便捷、绿色、安全、快速的销售和购买体验。
+ * [ZFAKA](https://github.com/zlkbdotnet/zfaka)
 # MugglePay
 ### 特点
  - 支持多种主流数字货币：BTC、BTC（Lightning Network）、ETH、USDT、BCH、LTC、EOS
@@ -13,7 +17,7 @@
  * 修改数据库，在faka数据库中运行下面的sql语句，建议使用宝塔环境的phpmyadmin软件进行修改，省时省力 
  *  ```sql
     INSERT INTO `t_payment` (`payment`, `payname`, `payimage`, `alias`, `sign_type`, `app_id`, `app_secret`, `ali_public_key`, `rsa_private_key`, `configure3`, `configure4`, `overtime`, `active`) VALUES
-    ('Mugglepay', 'Mugglepay', '/res/images/pay/crypto.png', 'Mugglepay', 'MD5', '', '', '', '', '', '0.00', 300, 0);
+    ('Mugglepay', 'Mugglepay', '/res/images/pay/crypto.png', 'mugglepay', 'MD5', '', '', '', '', '', '0.00', 300, 0);
     ```
 ## 注册流程
  1. 先跟点击上方注册地址，使用邀请码  MP38158552  注册
